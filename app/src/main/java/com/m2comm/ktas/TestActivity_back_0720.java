@@ -1,25 +1,22 @@
 package com.m2comm.ktas;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.net.IpSecAlgorithm;
 import android.os.Bundle;
 import android.os.Message;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.error.ANError;
@@ -28,7 +25,6 @@ import com.m2comm.ktas.module.ChromeclientPower;
 import com.m2comm.ktas.module.CustomHandler;
 import com.m2comm.ktas.module.Custom_SharedPreferences;
 import com.m2comm.ktas.module.Global;
-import com.m2comm.ktas.module.IntroChromeclientPower;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -36,7 +32,7 @@ import org.json.JSONObject;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class TestActivity extends AppCompatActivity {
+public class TestActivity_back_0720 extends AppCompatActivity {
 
     private WebView webView;
     private ChromeclientPower chromeclient;
